@@ -31,9 +31,9 @@
     </script>
 </head>
 
-<body class="px-[350px] py-[60px]">
+<body>
 
-    <header>
+    <header class="px-[350px] py-[40px]">
 
         <nav class="flex items-center justify-between">
             <div class="flex items-center">
@@ -79,7 +79,7 @@
         </section>
     </header>
 
-    <main class="mt-28">
+    <main class="mt-28 px-[350px] py-[60px]">
 
         <section class="client feedback">
             <div class="flex flex-col items-center gap-6">
@@ -248,7 +248,6 @@
                     humour.
             </div>
             <div class="flex items-center gap-[55px] mt-16">
-
                 <div class="grid grid-cols-2">
                     <div
                         class="flex flex-col items-center max-w-[280px] px-[65px] py-[60px] gap-6 border-r border-b border-[#e7e7e7] bg-[#F3F3F3]">
@@ -281,21 +280,68 @@
                 <div class="flex flex-col justify-center gap-8">
                     <input class="w-[570px] h-[75px] bg-[#F3F3F3] rounded-lg p-6 text-[#707070] outline-none"
                         type="text" placeholder="Your Name">
-                    <input class="w-[570px] h-[75px] bg-[#F3F3F3] rounded-lg p-6 text-[#707070]"
+                    <input class="w-[570px] h-[75px] bg-[#F3F3F3] rounded-lg p-6 text-[#707070] outline-none"
                         placeholder="Your Email">
-                    <input class="w-[570px] h-[75px] bg-[#F3F3F3] rounded-lg p-6 text-[#707070]" type="text"
-                        placeholder="Subject">
-                    <input
-                        class="w-[570px] h-[160px] bg-[#F3F3F3] rounded-lg p-6 text-[#707070] placeholder:absolute placeholder:top-6 "
-                        type="text" placeholder="Your Message">
+                    <input class="w-[570px] h-[75px] bg-[#F3F3F3] rounded-lg p-6 text-[#707070] outline-none"
+                        type="text" placeholder="Subject">
+                    <input class="h-[162px] bg-[#F3F3F3] rounded-lg outline-none px-6" placeholder="Your Message"
+                        type="text">
+
                     <button
                         class="w-[570px] h-[70px] bg-[#B68C5A] rounded-lg text-white cursor-pointer font-semibold text-[20px]">Send
                         Message</button>
                 </div>
             </div>
         </section>
-
     </main>
+
+    <footer class="bg-[#111111] w-full h-[500px] text-white px-[375px] pt-[120px] flex gap-20 items-start">
+        <div class="max-w-[260px] text-[#CFCFCF]">
+            <img src="images/logo.png" alt="logo" />
+            <p class="mt-8">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration
+                in some form, by injected humour.</p>
+        </div>
+        <div class="flex flex-col gap-12">
+            <p class="font-garamond text-[24px] font-extrabold">Usefull Link</p>
+            <ul class="flex flex-col gap-2 text-[#CFCFCF]">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Cases</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-12">
+            <p class="font-garamond text-[24px] font-extrabold">Contact Now</p>
+            <div class="flex flex-col gap-4 text-[#CFCFCF]">
+                <p class="max-w-[216px]">
+                    555 4th 5t NW, Washington
+                    DC 20530, United States
+                </p>
+                <p class="max-w-[156px]">
+                    +88 01750 000 000
+                    +88 01750 000 000
+                </p>
+                <p class="max-w-[140px]">
+                    info@gmail.com
+                    info@gmail.com
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-10 text-white">
+            <div class="max-w-[200px] ">
+                <p class="font-garamond text-[24px] font-extrabold">Subscribe</p>
+                <p class="text-[#CFCFCF] mt-12">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            </div>
+            <div class="flex w-[324px] relative">
+                <input class="w-full p-4 border-none rounded-lg outline-none text-[#A0A0A0]" type="email" placeholder="Email Address">
+                <div class="absolute bg-[#B68C5A] w-18 h-full rounded-lg flex right-0 top-0">
+                    <img src="images/Frame (1).png" alt="submit" />
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
